@@ -1,4 +1,4 @@
-import Comment, { CommentPropsType } from '../UI/Comment'
+import { Comment, CommentPropsType } from '../UI/Comment'
 
 type ProjectProps = {
 	side: 'right' | 'left'
@@ -78,4 +78,4 @@ const Project = ({
 	)
 }
 
-export default Project
+export { Project }

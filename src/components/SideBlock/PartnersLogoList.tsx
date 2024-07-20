@@ -1,12 +1,11 @@
 import { usePartnersLogo } from '../../store/partnersStore'
-import { PartnerLogo } from '../../types'
 
 const PartnersLogoList = () => {
-	const logoList = usePartnersLogo(state => state.partnersLogo)
+	const { partnersLogo } = usePartnersLogo()
 
 	return (
 		<div className='flex justify-center items-center h-full'>
-			{logoList.map((logo: PartnerLogo) => (
+			{partnersLogo.map(logo => (
 				<img
 					className='my-auto mx-auto grayscale'
 					key={logo.id}
@@ -18,4 +17,4 @@ const PartnersLogoList = () => {
 	)
 }
 
-export default PartnersLogoList
+export { PartnersLogoList }

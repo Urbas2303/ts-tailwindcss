@@ -1,9 +1,8 @@
 import { useProjects } from '../../store/projectsStore'
-import { ProjectType } from '../../types'
-import Project from './Project'
+import { Project } from './Project'
 
 const ProjectList = () => {
-	const projects = useProjects(state => state.projects)
+	const { projects } = useProjects()
 
 	return (
 		<div className='mb-40'>
@@ -17,7 +16,7 @@ const ProjectList = () => {
 					since the 1500s,
 				</p>
 			</div>
-			{projects.map((project: ProjectType, index: number) => (
+			{projects.map((project, index: number) => (
 				<Project
 					key={project.id}
 					side={index % 2 === 0 ? 'left' : 'right'}
@@ -37,4 +36,4 @@ const ProjectList = () => {
 	)
 }
 
-export default ProjectList
+export { ProjectList }

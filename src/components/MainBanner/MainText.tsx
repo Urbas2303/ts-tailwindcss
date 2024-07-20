@@ -33,4 +33,4 @@ const MainText = () => {
 	)
 }
 
-export default MainText
+export { MainText }

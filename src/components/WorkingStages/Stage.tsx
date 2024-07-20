@@ -33,4 +33,4 @@ const Stage = ({ title, description, linkText }: StageProps) => {
 	)
 }
 
-export default Stage
+export { Stage }

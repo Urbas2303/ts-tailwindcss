@@ -1,5 +1,5 @@
-import MainText from './MainText'
-import Navigation from './Navigation'
+import { MainText } from './MainText'
+import { Navigation } from './Navigation'
 
 const Banner = () => {
 	return (
@@ -17,4 +17,4 @@ const Banner = () => {
 	)
 }
 
-export default Banner
+export { Banner }

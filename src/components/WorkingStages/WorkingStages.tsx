@@ -1,5 +1,5 @@
 import { useStages } from '../../store/stageStore'
-import Stage from './Stage'
+import { Stage } from './Stage'
 
 const WorkingStages = () => {
 	const stages = useStages(state => state.stages)
@@ -23,4 +23,4 @@ const WorkingStages = () => {
 	)
 }
 
-export default WorkingStages
+export { WorkingStages }

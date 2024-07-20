@@ -17,4 +17,4 @@ const SideBlock = ({ side, children }: SideBlockType) => {
 	)
 }
 
-export default SideBlock
+export { SideBlock }

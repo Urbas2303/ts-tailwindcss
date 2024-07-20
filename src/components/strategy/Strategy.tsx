@@ -1,4 +1,4 @@
-import Comment from '../UI/Comment'
+import { Comment } from '../UI/Comment'
 
 const Strategy = () => {
 	const commentMainText =
@@ -53,4 +53,4 @@ const Strategy = () => {
 	)
 }
 
-export default Strategy
+export { Strategy }

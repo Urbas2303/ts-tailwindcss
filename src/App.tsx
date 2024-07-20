@@ -1,10 +1,10 @@
-import Footer from './components/Footer/Footer'
-import Banner from './components/MainBanner/Banner'
-import ProjectList from './components/Projects/ProjectList'
-import PartnersLogoList from './components/SideBlock/PartnersLogoList'
-import SideBlock from './components/SideBlock/SideBlock'
-import Strategy from './components/strategy/Strategy'
-import WorkingStages from './components/WorkingStages/WorkingStages'
+import { Footer } from './components/Footer/Footer'
+import { Banner } from './components/MainBanner/Banner'
+import { ProjectList } from './components/Projects/ProjectList'
+import { PartnersLogoList } from './components/SideBlock/PartnersLogoList'
+import { SideBlock } from './components/SideBlock/SideBlock'
+import { Strategy } from './components/strategy/Strategy'
+import { WorkingStages } from './components/WorkingStages/WorkingStages'
 
 function App() {
 	return (
